@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <head>
-
+<link href="styles/reset.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="styles/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
-    <ul>
+  <nav>
+    <ul id="header" class="text">
         <li>Gmail</li>
         <li>Images</li>
-        <li><img src="" alt="icon"></img></li>
+        <li><img id="icon-ham-menu" src="images/ham-menu-google.png" alt="icon"></li>
     </ul>
-    
-    <img src="images/google-logo.png" alt="Google Logo">
-    <textarea type="textarea" name="search-bar" id="search-bar"><img src="" alt="voice-command-icon"></textarea>
-
-    <ul>
-        <li>Google Search</li>
-        <li>I'm Feeling Lucky</li>
-    </ul>
-<footer>
-    <ul>
+  </nav>
+<div id="main-content">
+    <div id="logo-searchbar">
+        <img id="google-logo" src="images/google-logo.png" alt="Google Logo">
+        <div id="search-bar-full">
+            <input type="text" name="search-bar" id="search-bar">
+         </div>
+    </div>
+    <div id="search-buttons">
+        <input type="submit" name="search" value="Google Search">
+        <input type="submit" name="lucky" value="I'm Feeling Lucky">
+    </div>
+</div>
+<footer id="footer">
+    <ul id="footer-right" class="text">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+    <ul id="footer-left" class="text">
         <li>Advertising</li>
         <li>Business</li>
         <li>About</li>
     </ul>
-    <ul>
-        <li>Privacy</li>
-        <li>Terms</li>
-        <li>Settings</li>
-    </ul>
 </footer>
+<script src="scripts/script.js"></script>
 </body>

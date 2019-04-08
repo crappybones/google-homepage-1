@@ -1,0 +1,120 @@
+ul {
+    list-style-type: none;
+}
+.text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+nav {
+    width: 100%;
+    height: 65px;
+}
+nav ul {
+    padding: 0;
+    margin: 20px;
+    height: 100%;
+    text-align: end;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    height: 100%;
+}
+#icon-ham-menu {
+    width: 20px;
+}
+#google-logo {
+    text-align center;
+    padding-top: 109px; 
+}
+#main-content {
+   margin-bottom: 500px;
+}
+#logo-searchbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+#search-bar-full {
+    position: relative;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 6px;
+    width: 484px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+}
+
+#search-bar {
+    color: transparent;
+    flex: 100%;
+    font: 16px 'Lato', sans-serif;
+    height: 34px !important;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#search-buttons {
+    padding-top: 18px;
+    top: 53px;
+    width: auto;
+    display: block;
+    text-align: center;
+}
+
+#search-buttons input {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    right: auto;
+    left: auto;
+    height: 36px;
+    line-height:27px;
+    padding: 0 16px;
+    margin: 11px 4px;
+}
+#footer {
+   border-bottom: 1px solid #e4e4e4;
+   display: block;
+   color: #222;
+   line-height: 40px;
+   background: #f2f2f2;
+   border-top: 1px solid #e4e4e4;
+   min-width: 980px;
+   height: auto;
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+}
+#footer ul{
+    padding: 0;
+    margin: 20px;
+    height: 100%;
+}
+#footer-left ul {
+    margin-left: 30px;
+}
+#footer-right ul {
+    margin-right: 30px;
+    float: right;
+}
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+    height: 0;
+}
