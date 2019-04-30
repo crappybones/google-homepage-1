@@ -85,12 +85,12 @@ nav ul li {
 }
 
 #search-bar {
-    color: transparent;
+    color: black;
     flex: 100%;
     font: 16px 'Lato', sans-serif;
     height: 34px !important;
     border: none;
-    margin: 0;
+    margin: 5px 20px;
     padding: 0;
 }
 
