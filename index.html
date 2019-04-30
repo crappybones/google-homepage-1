@@ -4,12 +4,13 @@
 <link href="styles/style.css" rel="stylesheet" type="text/css" media="all"/>
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
-<body>
+<body id="main">
   <nav>
     <ul id="header" class="text">
         <li>Gmail</li>
-        <li>Images</li>
+        <li><a href="https://www.google.co.cr/imghp?hl=en&tab=wi&authuser=0"></a>Images</li>
         <li><img id="icon-ham-menu" src="images/ham-menu-google.png" alt="icon"></li>
+        <li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/" id="sign-in">Sign In</a></li>
     </ul>
   </nav>
 <div id="main-content">
@@ -23,18 +24,27 @@
         <input type="submit" name="search" value="Google Search">
         <input type="submit" name="lucky" value="I'm Feeling Lucky">
     </div>
+    <div id="language-change" class="text">
+        Google offered in:
+        <a href="">Español (Latinoamérica)</a>
+    </div>
 </div>
 <footer id="footer">
-    <ul id="footer-right" class="text">
+    <div id="footer-top" class="text">
+        <p>Costa Rica</p>
+    </div>
+    <div id="footer-bottom">
+        <ul id="footer-right" class="text">
                 <li>Privacy</li>
                 <li>Terms</li>
                 <li>Settings</li>
-            </ul>
-    <ul id="footer-left" class="text">
-        <li>Advertising</li>
-        <li>Business</li>
-        <li>About</li>
-    </ul>
+                </ul>
+        <ul id="footer-left" class="text">
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>About</li>
+        </ul>
+    </div>
 </footer>
 <script src="scripts/script.js"></script>
 </body>
