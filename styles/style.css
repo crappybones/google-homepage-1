@@ -126,8 +126,12 @@ nav ul li {
     margin: 11px 4px;
 }
 #search-buttons input:hover {
+<<<<<<< HEAD
     color: #222;
     background-color: ;
+=======
+    color: #222; 
+>>>>>>> e015ebad0c08097cc33c1e6edabd80aa3e5158f9
 }
 #footer {
    border-bottom: 1px solid #e4e4e4;
